@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.outerdiv {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url(./Image/Background_Image.jpg) no-repeat center center/cover;
+  background-attachment: fixed;
+  gap: 15px;
+}
+.innerdiv {
+  margin: 15px 0px 15px 0px;
+  position: relative;
+  width: 70%;
+  height: auto;
+  background-color: #ffffff;
+  padding: 0px 20px 0px 20px;
+  transform: scale(1.2) skew(-20deg, 0deg);
+  padding-top: 43px;
+  padding-bottom: 43px;
+  border-radius: 10px;
+}
+.innerdivpic {
+  float: left;
+  shape-outside: circle();
+}
+.innerdivpic > img {
+  height: 150px;
+  width: 150px;
+  margin-right: 37px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+.innerdiv:hover img {
+  filter: grayscale(0%) blur(3px)
+}
+.innerdivpic, .innerdivcont{
+  transform: skew(20deg, 0deg);
+}
+.innerdivcont {
+  shape-outside: circle(50%);
+  width: 95%;
+  margin: auto;
+}
+.innerdiv img {
+  transition: transform 1s, filter 2s ease-in-out;
+  filter: blur(0px);
+}
+h3 {
+  text-transform: uppercase;
+  color: rgb(83, 77, 77);
+  margin-top: 10px;
+}
+p {
+  font-size: 22px;
+  margin-top: 20px;
+  color: rgb(112, 104, 104);
+}
+.img_discription {
+  position: absolute;
+  top: 50px;
+  bottom: 50px;
+  left: 40px;
+  right: 20px;
+  color: rgb(255, 255, 255);
+  visibility: hidden;
+  opacity: 0;
+  font-weight: bold;
+  transition: transform ease 300ms;
+}
+.innerdiv:hover .img_discription {
+  visibility: visible;
+  opacity: 1;
+  transform: translate(0, -20px);
+}
+.innerdiv2 {
+  margin-top: 5%;
+}
+@media screen and (max-width: 946px) {
+  .innerdiv{
+    width: 80%;
+  }
+  .innerdivcont, .innerdivpic, .innerdiv {
+    transform: none;
+  }
+}
+@media screen and (max-width:490px) {
+  .innerdivpic > img {
+    height: 100px;
+    width: 100px;
+  }
+  .innerdivcont>h3{
+    font-size: 18px;
+  }
+  .innerdivpic>p{
+    font-size: 20px;
+    top: 25px;
+  left: 20px;
+  }
+}
+@media screen and (min-width:460px) {
+  .innerdiv {
+    margin: 40px 0px 30px 0px;
+  }
+  .innerdiv2 {
+    margin-bottom: 48px;
+  }
+}
