@@ -10,7 +10,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: url(./Image/Background_Image.jpg) no-repeat center center/cover;
+  background: url(./Image/Background_Image.webp) no-repeat center center/cover;
   background-attachment: fixed;
   gap: 15px;
 }
@@ -38,9 +38,10 @@
   border-radius: 100%;
 }
 .innerdiv:hover img {
-  filter: grayscale(0%) blur(3px)
+  filter: grayscale(0%) blur(3px);
 }
-.innerdivpic, .innerdivcont{
+.innerdivpic,
+.innerdivcont {
   transform: skew(20deg, 0deg);
 }
 .innerdivcont {
@@ -83,28 +84,30 @@ p {
   margin-top: 5%;
 }
 @media screen and (max-width: 946px) {
-  .innerdiv{
+  .innerdiv {
     width: 80%;
   }
-  .innerdivcont, .innerdivpic, .innerdiv {
+  .innerdivcont,
+  .innerdivpic,
+  .innerdiv {
     transform: none;
   }
 }
-@media screen and (max-width:490px) {
+@media screen and (max-width: 490px) {
   .innerdivpic > img {
     height: 100px;
     width: 100px;
   }
-  .innerdivcont>h3{
+  .innerdivcont > h3 {
     font-size: 18px;
   }
-  .innerdivpic>p{
+  .innerdivpic > p {
     font-size: 20px;
     top: 25px;
-  left: 20px;
+    left: 20px;
   }
 }
-@media screen and (min-width:460px) {
+@media screen and (min-width: 460px) {
   .innerdiv {
     margin: 40px 0px 30px 0px;
   }
