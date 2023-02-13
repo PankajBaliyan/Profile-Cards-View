@@ -42,7 +42,7 @@ If you have any feedback, please reach out to us at pankajbaliyan90@gmail.com
 
 ## Lessons Learned
 
-I learned many things while making this repository, i.e. how to make a login signup page, which is responsible to all plateforms
+I learned many things while making this repository, i.e. how to make a webpage responsive to all devices screens and how to add hover effect on a webpage.
 ## Run Locally
 
 Clone the project
