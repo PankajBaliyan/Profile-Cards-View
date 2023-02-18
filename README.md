@@ -11,7 +11,7 @@ Currently, this webpage is about responsive profile cards. These cards react to 
 
 ## Authors
 
-- [@pankajkumar90](https://www.github.com/pankajkumar90)
+- [@PankajBaliyan](https://www.github.com/PankajBaliyan)
 
 
 ## Contributing
@@ -27,7 +27,7 @@ Please adhere to this project's `code of conduct`.
 
 https://profile-cards-view.vercel.app
 <br><br>
-https://pankajkumar90.github.io/Profile-Cards-View/
+https://PankajBaliyan.github.io/Profile-Cards-View/
 
 
 ## Feedback
@@ -48,7 +48,7 @@ I learned many things while making this repository, i.e. how to make a webpage r
 Clone the project
 
 ```bash
-  git clone https://pankajkumar90.github.io/Profile-Cards-View/
+  git clone https://PankajBaliyan.github.io/Profile-Cards-View/
 ```
 
 Go to the project directory
