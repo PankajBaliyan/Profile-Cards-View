@@ -1,0 +1,117 @@
+@media screen and (max-width: 946px) {
+
+    .inner-div-cont>h3,
+    p {
+        font-size: 16px;
+        word-break: break-all;
+    }
+
+    .inner-div-pic>p {
+        text-align: center;
+        font-size: 14px;
+        word-break: break-word;
+        max-width: 90px;
+    }
+
+    .inner-div-pic>img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .inner-div:hover .img_discription {
+        transform: translate(0, -81px);
+        margin: 7px;
+    }
+
+    .inner-div {
+        width: 80%;
+    }
+
+    .inner-div-cont,
+    .inner-div-pic,
+    .inner-div {
+        transform: none;
+    }
+}
+
+/* LAPTOP DEVICES  */
+@media (min-width:769px) and (max-width:1023px) {
+    p {
+        font-size: 16px;
+    }
+
+    .inner-div-pic>img {
+        height: 120px;
+        width: 120px;
+    }
+
+    .outer-div {
+        height: 670px;
+    }
+
+    .inner-div-pic>p {
+        text-align: center;
+        font-size: 14px;
+        word-break: break-word;
+        max-width: 90px;
+    }
+
+    .inner-div:hover .img_discription {
+        transform: translate(0, -81px);
+        margin: 7px;
+    }
+}
+
+/* DESKTOP DEVICES  */
+@media (min-width:1024px) and (max-width:1200px) {
+    .outer-div {
+        height: 670px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .inner-div-pic>img {
+        height: 120px;
+        width: 120px;
+    }
+
+    .inner-div-pic>p {
+        text-align: center;
+        font-size: 14px;
+        word-break: break-word;
+        max-width: 90px;
+    }
+
+    .inner-div:hover .img_discription {
+        transform: translate(0, -81px);
+        margin: 7px;
+    }
+}
+
+
+/* TV/EXTRA LARGE DEVICES  */
+@media (min-width:1201px) {
+    .outer-div {
+        height: 770px;
+    }
+
+    .inner-div-pic>img {
+        height: 150px;
+        width: 150px;
+    }
+
+    .inner-div-pic>p {
+        text-align: center;
+        font-size: 14px;
+        word-break: break-word;
+        max-width: 90px;
+    }
+
+    .inner-div:hover .img_discription {
+        transform: translate(0, -126px);
+        margin-left: 20px;
+        font-size: 21px;
+    }
+}
